@@ -1,0 +1,15 @@
+@import './Mixins/mixins.scss';
+@import './Variables/variables.scss';
+
+@import '../Components/Annoncement/Annoncement.scss';
+@import '../Components/Navbar/Navbar.scss';
+@import '../Components/Connexion/Connexion.scss';
+@import '../Components/Senregistrer/Senregistrer.scss';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $Urbanist;
+}
