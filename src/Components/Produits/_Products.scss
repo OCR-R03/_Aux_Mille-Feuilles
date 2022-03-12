@@ -1,0 +1,6 @@
+.Container_products {
+    @include wrap;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: $color-secondary;
+}

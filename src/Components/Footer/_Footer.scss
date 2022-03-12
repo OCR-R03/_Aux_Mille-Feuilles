@@ -1,0 +1,115 @@
+.Container_Footer {
+    display: flex;
+    background-color: $color-secondary;
+    border: 2px solid #31b572;
+}
+
+.Left_Footer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.Logo_Footer {
+    font-family: $Leah;
+    color: $color-primary;
+}
+
+.Container_Desc_Footer {
+    width: 50%;
+}
+
+.Desc_Footer {
+    margin: 20px 0px;
+    color: white;
+    text-justify: auto;
+}
+
+.SocialContainer_Footer {
+    display: flex;
+}
+
+.SocialIcon_Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.circle_Facebook {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+    background: linear-gradient(0deg, rgba(0,100,224,1) 0%, rgba(16,150,244,1) 100%);
+}
+
+.icon_Facebook {
+    font-size: 23px;
+    padding-top: 6.7px;
+    padding-left: 8px;
+    color: white;
+}
+
+.square_instagram {
+    border-radius: 30%;
+    width: 30px;
+    height: 30px;
+    background:linear-gradient(32deg, rgba(251, 217, 122, 1) 0%, rgba(221, 45, 125, 1) 39%, rgba(155, 54, 185, 1) 67%, rgba(99, 68, 197, 1) 100%);
+}
+
+.logo_insta {
+    font-size: 25px;
+    padding-top: 3px;
+    padding-left: 4px;
+    color: white;
+}
+
+.logo_twitter {
+    font-size: 30px;
+    color: #1da1f2;
+}
+
+.Center_Footer {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.Title_Footer {
+    margin-bottom: 30px;
+    color: #31b572;
+}
+
+.List_Footer {
+    @include wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ListItem_Footer {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.Right_Footer {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.ContactItem_Footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Payment_Footer {
+    width: 50%;
+}

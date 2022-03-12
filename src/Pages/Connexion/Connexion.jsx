@@ -113,15 +113,7 @@ class Login extends React.Component {
                             Vous êtes connecté !
                         </div>
                         
-                        <ul className="list-group">
-                            
-                            <li className="list-group-item">Email: {values.email}</li>
-                            
-                            <li className="list-group-item">
-                            
-                                Password: {values.password}
-                            </li>
-                        </ul>
+                
                     </div>
                     )
                 }

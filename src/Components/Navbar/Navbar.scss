@@ -48,6 +48,10 @@
     color: white;
 }
 
+input.Search_Navbar:focus {     
+    outline:  none;
+}
+
 #MenuItem_Navbar {
     @include flexbox-center;
     margin-left: 20px;

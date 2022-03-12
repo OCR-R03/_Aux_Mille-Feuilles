@@ -28,7 +28,7 @@ export default function Navbar() {
                 <nav className='Center_Header'>
             
                     <div>
-                        <Link to="/Accueil" style={{textDecoration: "none"}}>
+                        <Link to="/" style={{textDecoration: "none"}}>
                             <h1 className='Logo_Header'>Aux Mille Feuilles</h1>
                         </Link>
                     </div>

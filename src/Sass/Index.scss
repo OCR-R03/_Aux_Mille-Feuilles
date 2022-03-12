@@ -3,8 +3,13 @@
 
 @import '../Components/Annoncement/Annoncement.scss';
 @import '../Components/Navbar/Navbar.scss';
-@import '../Components/Connexion/Connexion.scss';
-@import '../Components/Senregistrer/Senregistrer.scss';
+@import '../Pages/Connexion/Connexion.scss';
+@import '../Pages/Senregistrer/Senregistrer.scss';
+@import '../Components/Categories/Categories.scss';
+@import '../Components/Categories/Categoryitem.scss';
+@import '../Components/Produits/Products.scss';
+@import '../Components/Newsletter/Newsletter.scss';
+@import '../Components/Footer/Footer.scss';
 
 
 * {
