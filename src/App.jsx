@@ -18,6 +18,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Senregistrer from './Pages/Senregistrer/Senregistrer'
 import Connexion from './Pages/Connexion/Connexion'
 import Accueil from "./Pages/Accueil"
+import Product from './Pages/Product/Product'
 
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/' element={<Accueil />} />
           <Route path='/Senregistrer' element={<Senregistrer />} />
           <Route path='/Connexion' element={<Connexion />} />
+          <Route path='/Product' element={<Product />} />
         </Routes>
    
      

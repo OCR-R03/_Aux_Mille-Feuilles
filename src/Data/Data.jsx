@@ -17,7 +17,7 @@ export const sliderItems = [
   {
     id: 1,
     img: Photo_1,
-    title: "Envie d'une plante verte d'intérieure ?",
+    title: "Envie d'une plante verte d'intérieur ?",
     desc: "Nous vous offrons 30% de réduction à l'achat d'une Monstera.",
     bg: "222222",
   },

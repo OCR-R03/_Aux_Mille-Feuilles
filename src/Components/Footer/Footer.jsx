@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { MailOutline, Phone, Pinterest, Room, } from "@material-ui/icons";
+import { faFacebookF, faInstagram, faTwitter, faPinterest } from '@fortawesome/free-brands-svg-icons'
+import { MailOutline, Phone, Room, } from "@material-ui/icons";
 import Payment from '../../Assets/Logo_Payement/payment.png'
 import styled from "styled-components";
 
@@ -30,25 +30,24 @@ const Footer = () => {
                 
                 <div className="SocialContainer_Footer">
                     
-                    <SocialIcon className="SocialIcon_Footer" color="3B5999">
+                    <SocialIcon className="SocialIcon_Footer">
                         <div className='circle_Facebook'>
                         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={ faFacebookF } className="icon_Facebook" /></a>
                         </div>
                     </SocialIcon>
             
-                    <SocialIcon className="SocialIcon_Footer" color="E4405F">
+                    <SocialIcon className="SocialIcon_Footer">
                         <div className="square_instagram">
                         <a href="https://www.instagram.com/?hl=fr" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={ faInstagram } className="logo_insta" /></a>
                         </div>
                     </SocialIcon>
             
-                    <SocialIcon className="SocialIcon_Footer" color="55ACEE">
+                    <SocialIcon className="SocialIcon_Footer">
                         <a href="https://twitter.com/?lang=fr" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={ faTwitter } className="logo_twitter" /></a>
-                       
                     </SocialIcon>
             
-                    <SocialIcon className="SocialIcon_Footer" color="E60023">
-                        <Pinterest />
+                    <SocialIcon className="SocialIcon_Footer">
+                        <a href="https://www.pinterest.fr/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={ faPinterest } className="logo_Pinterest" /></a>
                     </SocialIcon>
           
                 </div>
