@@ -53,7 +53,7 @@ import { Link } from 'react-router-dom'
     height: 40px;
     border-radius: 50%;
     background-color: #31b572;
-    color: white;
+    color: rebeccapurple;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,6 @@ import { Link } from 'react-router-dom'
     transition: all 0.5s ease;
     &:hover {
       background-color: white;
-      color: #31b572;
       transform: scale(1.1);
     }
   `;
@@ -76,7 +75,7 @@ import { Link } from 'react-router-dom'
             <ShoppingCartOutlined />
           </Icon>
           <Icon>
-            <Link to="Product"><SearchOutlined /></Link>
+            <Link to="Product"><SearchOutlined style={{color: "rebeccapurple"}}/></Link>
           </Icon>
           <Icon>
             <FavoriteBorderOutlined />

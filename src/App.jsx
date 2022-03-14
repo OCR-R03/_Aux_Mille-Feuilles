@@ -18,7 +18,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Senregistrer from './Pages/Senregistrer/Senregistrer'
 import Connexion from './Pages/Connexion/Connexion'
 import Accueil from "./Pages/Accueil"
-import Product from './Pages/Product/Product'
+import Product from './Pages/Product/Canne_du_muet'
 
 
 
